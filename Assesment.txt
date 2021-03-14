@@ -1,0 +1,32 @@
+1. First create four id with the name param-date, bidding-date, obj-sel, all-links
+2. Now add id="param-date" in font tag to use css selectors in html page.
+3. In javascript select the element from above id
+
+<style>
+#param-date {
+
+}
+
+#bidding-date {
+
+}
+
+#obj-sel {
+
+}
+
+#all-links {
+
+}
+</style>
+
+<script>
+var paramDate = document.getElementById("param-date").textContent;
+  alert(paramDate);
+  var biddingDate = document.getElementById("bidding-date").textContent;
+  alert(biddingDate);
+  var objSel = document.getElementById("obj-sel").textContent;
+  alert(objSel);
+  var allLinks = document.getElementById("all-links").textContent;
+  alert(allLinks);
+</script>
